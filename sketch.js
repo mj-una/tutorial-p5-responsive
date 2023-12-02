@@ -109,7 +109,6 @@ function windowResized() {
   pag.style.display = "flex"; // propiedad css para centrar (se aplica al contenedor)
   pag.style.justifyContent = "center"; // centrar contenido en eje horizontal
   pag.style.alignItems = "center"; // centrar contenido en eje vertical (ej. <--)
-  pag.style.width = "100vw"; // en el celu a veces acorta la vista abajo
   pag.style.height = "100vh"; // en el celu a veces acorta la vista abajo
  
   // no se cómo explicarlo bien, pero este if sirve para ver cuál medida es mayor:
