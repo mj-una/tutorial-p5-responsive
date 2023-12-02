@@ -104,9 +104,12 @@ desde el editor de p5 online hasta una pagina web publicada
 .....................................
 
 13. ahora hay que publicar la página. una forma simple de hacerlo es
-    en los ajustes del repositorio (el icono de mas a la derecha que dice "settings",
-    justo al lado de "insights"). en el menu de la izquierda hay varias opciones
-    busca la que dice "pages", justo despues de "codespaces"
+    en los ajustes del repositorio (en la barra que está abajo del logo
+    y del nombre del repo, el icono de mas a la derecha que dice "settings"
+    justo al lado de "insights").
+
+    se abirá un menu, busca entre las secciones de la izquierda donde
+    hay varias opciones: la que dice "pages", justo despues de "codespaces"
     
 
 .....................................
@@ -169,7 +172,7 @@ sobre github:
  -  es una plataforma para alojar codigo y participar en proyectos colaborativos
  -  funciona sobre git, que es un sistema de control de versiones (en q todas las
     actualizaciones que haces a tu codigo quedan guardadas de forma accesible)
- -  tiene una curva de aprendizaje lenta y siemrpe te falta saber un poco mas,
+ -  tiene una curva de aprendizaje lenta y siempre te faltará saber un poco mas
     pero es muy muy muy util, asi q todo lo q aprendas vale el esfuerzo.
 
 
@@ -187,10 +190,10 @@ tutoriales de git/github de la catedra laccabanne (2022)
 
     trabajar desde repositorios locales y desde un editor tipo vs code (o similar)
     permite manejar mucho mejor el codigo, los archivos y los cambios q hagas.
-    ademas se respalda en la nube y se puede compartir facilmente
+    ademas se respaldan en la nube y se pueden compartir facilmente
 
-    puede ser un poco dificil acostumbrarse al principio, pero intenta y repite.
-    la mejor forma de aprender es con el uso. cada vez se hará un poco mas facil.
+    es un poco dificil acostumbrarse al principio, pero intentalo y repitelo.
+    la mejor forma de aprender es con el uso. cada vez se te hará un poco mas fácil.
 
     saludos!
     
