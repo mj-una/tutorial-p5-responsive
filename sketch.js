@@ -68,7 +68,7 @@ q una interfaz tape por completo el margen inferior.
 
 ajustable: a -> [cnv.style.paddingTop] se le asigna -> [mrg * 0.5 + "vh"]
 el valor [0.5] se puede disminuir o aumentar (entre 0 y 1) para ajustar el tamaño
-del margen superior (mientras mas margen haya arriba, menos habrá abajo)
+del margen superior (mientras menos margen haya arriba, mas habrá abajo)
 
 la forma original funciona perfecto para ver desde compu y algunos celulares.
 en esos caso la forma alternativa se verá menos prolija visualmente, pero sirve
