@@ -47,6 +47,30 @@ para usar y editar libremente. no es necesario citar autoria
 
 30 Nov 2023
 
+
+.....................................
+
+# nota 2 de diciembre: corregi un error con el margen del ejemplo 1.
+
+ademas lo probe en algunos dispositivos y hay un tema con la altura
+pq en algunos celulares se agrega una interfaz abajo q se sobrepone al viewport.
+por ejemplo en algunos android q tienen como una barra con botones incorporados,
+q son como una cortina por sobre del navegador, entonces para la vista final
+no quedará justo al centro entre arriba y abajo. no se como resolverlo,
+pq tecnicamente funciona bien, lo q cambia es el caso a caso de cómo trabaja
+la interfaz de cada celu.
+
+si se prefiere, como alternativa, se puede quitar la linea de .alignItems,
+y descomentar la siguiente (que dice .paddingTop). asi el sketch quedará
+un poco mas arriba que el centro, con la ventaja de que es menos probable
+q una interfaz tape por completo el margen inferior.
+
+la forma original funciona perfecto para ver desde compu y muchos celulares.
+la forma alternativa es un poco menos correcta tecnicamente pero sirve de parche
+para asegurarse de q siempre se vea el lienzo relativamente bien colocado.
+
+si alguien encuentra otro error o tiene una sugerencia, porfa me dice y lo edito
+
 */
 
 
@@ -109,7 +133,8 @@ function windowResized() {
   pag.style.display = "flex"; // propiedad css para centrar (se aplica al contenedor)
   pag.style.justifyContent = "center"; // centrar contenido en eje horizontal
   pag.style.alignItems = "center"; // centrar contenido en eje vertical (ej. <--)
-  pag.style.height = "100vh"; // en el celu a veces acorta la vista abajo
+  //pag.style.paddingTop = mrg * 0.5 + "vh"; // (alternativa. ver # nota 2 de diciembre)
+  pag.style.height = "100vh"; // a veces se recorta la pagina en pantallas verticales
  
   // no se cómo explicarlo bien, pero este if sirve para ver cuál medida es mayor:
   // el ancho de pantalla en comparación al alto del lienzo, o el alto de pantalla
@@ -287,6 +312,7 @@ function windowResized() {
   
 .....................................
   
+
 COMENTARIO FINAL
 
 --> instancias multiples
