@@ -10,10 +10,11 @@ tiene dos ejemplos de implementaciones distintas:
 
 <br>
 
-ver tutorial en [editor p5 online](https://editor.p5js.org/martin_julio/sketches/1dDJhk4Qm)
+ver tutorial en <a href="https://editor.p5js.org/martin_julio/sketches/1dDJhk4Qm" target="_blank" rel="noopener noreferrer">editor p5 online</a>
 
 
-ver vista web en [github pages](mj-una.github.io/tutorial-p5-responsive)
+ver vista web en <a href="mj-una.github.io/tutorial-p5-responsive" target="_blank" rel="noopener noreferrer">github pages</a>
 
 
-ver tutorial [publicar pagina web](https://github.com/mj-una/tutorial-p5-responsive/blob/main/github.md)
+ver tutorial <a href="https://github.com/mj-una/tutorial-p5-responsive/blob/main/github.md" target="_blank" rel="noopener noreferrer">publicar pagina web</a>
+
