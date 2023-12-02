@@ -50,7 +50,7 @@ para usar y editar libremente. no es necesario citar autoria
 
 .....................................
 
-# nota 2 de diciembre: corregi un error con el margen del ejemplo 1.
+# nota 2 de diciembre para ejemplo 1: corregi un error con el margen.
 
 ademas lo probe en algunos dispositivos y hay un tema con la altura
 pq en algunos celulares se agrega una interfaz por abajo q se sobrepone al viewport
