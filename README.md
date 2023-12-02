@@ -13,7 +13,7 @@ tiene dos ejemplos de implementaciones distintas:
 ver tutorial en <a href="https://editor.p5js.org/martin_julio/sketches/1dDJhk4Qm" target="_blank" rel="noopener noreferrer">editor p5 online</a>
 
 
-ver vista web en <a href="mj-una.github.io/tutorial-p5-responsive/index.html" target="_blank" rel="noopener noreferrer">github pages</a>
+ver vista web en <a href="https://mj-una.github.io/tutorial-p5-responsive/index.html" target="_blank" rel="noopener noreferrer">github pages</a>
 
 
 ver tutorial <a href="https://github.com/mj-una/tutorial-p5-responsive/blob/main/github.md" target="_blank" rel="noopener noreferrer">publicar pagina web</a>
