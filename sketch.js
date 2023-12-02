@@ -14,7 +14,7 @@ despues hice otro ejemplo que sirve para una pagina completa, en la que el lienz
 solamente una parte de ella, como en la visualizacion que tiene cada tp de la piscine
 https://knnv-ar.github.io/la-piscine/
 
-se le puede colocar cualquier medida al lienzo de p5, porque desde windowResized
+se le puede colocar cualquier medida al lienzo de p5, porque desde windowResized()
 se ajusta el tamaño del elemento <canvas> del html y sobrescribe lo anterior.
 
 ->  la medida que se le pase a createCanvas() será la resolucion interna del lienzo.
@@ -33,7 +33,7 @@ el ejemplo 1 está listo para copiar y pegar. solo hay que quitar los comentario
 se adapta a cualquier pantalla. le puse flex, asi el canvas siempre quedará al medio.
 se le puede personalizar el tamaño del margen y el color de fondo.
 
-    aqui publiqué el ejemplo 1 (para verlo desde cualquier dispositivo):
+    aqui publiqué el ejemplo 1 (para verlo como pagina web):
     https://mj-una.github.io/tutorial-p5-responsive
 
     aqui un paso a paso para publicar una pagina web en github pages:
@@ -53,21 +53,23 @@ para usar y editar libremente. no es necesario citar autoria
 # nota 2 de diciembre: corregi un error con el margen del ejemplo 1.
 
 ademas lo probe en algunos dispositivos y hay un tema con la altura
-pq en algunos celulares se agrega una interfaz abajo q se sobrepone al viewport.
-por ejemplo en algunos android q tienen como una barra con botones incorporados,
-q son como una cortina por sobre del navegador, entonces para la vista final
-no quedará justo al centro entre arriba y abajo. no se como resolverlo,
-pq tecnicamente funciona bien, lo q cambia es el caso a caso de cómo trabaja
-la interfaz de cada celu.
+pq en algunos celulares se agrega una interfaz por abajo q se sobrepone al viewport
+del navegador. por ejemplo algunos android q tienen una barra con botones incorporados,
+q funcionan como una cortina por sobre del navegador. por eso, para la vista final
+no quedará justo al centro entre arriba y abajo.
 
-si se prefiere, como alternativa, se puede quitar la linea de .alignItems,
-y descomentar la siguiente (que dice .paddingTop). asi el sketch quedará
+no se como resolverlo, pq tecnicamente funciona bien, lo q cambia es el caso a caso
+de cómo trabaja la interfaz de cada celu.
+
+si se prefiere, como alternativa, se puede quitar la linea de ".alignItems",
+y descomentar la siguiente (que dice ".paddingTop"). asi el sketch quedará
 un poco mas arriba que el centro, con la ventaja de que es menos probable
 q una interfaz tape por completo el margen inferior.
 
 la forma original funciona perfecto para ver desde compu y muchos celulares.
-la forma alternativa es un poco menos correcta tecnicamente pero sirve de parche
-para asegurarse de q siempre se vea el lienzo relativamente bien colocado.
+en esos caso la forma alternativa se verá menos prolija visualmente, pero sirve
+de parche para intentar q en todos los demas casos se vea algo de margen inferior
+y no quede topando el lienzo con una interfaz del celular.
 
 si alguien encuentra otro error o tiene una sugerencia, porfa me dice y lo edito
 
@@ -114,25 +116,26 @@ function windowResized() {
  
   // margen <== EDITABLE
   let mrg = 5; // porcentaje (entre 0% y 50%)
-  // calculando que 100% es la medida menor del contexto de visualizacion (la ventana)
+  // calculando que 100% es la medida menor del contexto de visualizacion (viewport)
   // en comparación a la proproción width/height del lienzo. mas simple, y mas probable
-  // es que desde celu 100% va ser el ancho de la pantalla y desde compu el alto
+  // es que desde celu 100% va ser el ancho de la ventana y desde compu el alto
   // (pero si el lienzo es muy largo o muy ancho, puede ser al revés)
  
   // fondo <== EDITABLE
   pag.style.backgroundColor = "rgb(160, 100, 80)";
   // para personalizar color. pero lo más correcto seria hacerlo en el css
-  // o en un alguna parte del codigo dedicada a eso (asi no confunde luego)
+  // o en un alguna parte del codigo dedicada a eso, asi no confunde luego
+  // (si lo vas a hacer así entonces borra esta linea).
 
   // con .style se setean propiedades de estilo
-  // cuando una propiedad en css tienen un-guion (--> ej: "align-items"), 
-  // el metodo equivalente en js se escribe con camelCase (--> ej: ".alignItems").
+  // cuando una propiedad en css tienen un-guion (@==> ej: "align-items"), 
+  // el metodo equivalente en js se escribe con camelCase (@==> ej: ".alignItems").
   // el valor que se le asigna tiene que ser de tipo string
   
   pag.style.overflow = "hidden"; // quita scroll
   pag.style.display = "flex"; // propiedad css para centrar (se aplica al contenedor)
-  pag.style.justifyContent = "center"; // centrar contenido en eje horizontal
-  pag.style.alignItems = "center"; // centrar contenido en eje vertical (ej. <--)
+  pag.style.justifyContent = "center"; // centrar contenido horizontalmente
+  pag.style.alignItems = "center"; // centrar contenido verticalmente (ej. <==@)
   //pag.style.paddingTop = mrg * 0.5 + "vh"; // (alternativa. ver # nota 2 de diciembre)
   pag.style.height = "100vh"; // a veces se recorta la pagina en pantallas verticales
  
@@ -224,6 +227,7 @@ index.html
   <head>
     <!-- los script de librerias se colocan en el head -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
     
     <style>
@@ -317,8 +321,8 @@ COMENTARIO FINAL
 
 --> instancias multiples
 
-si una pagina contiene varios sketchs, es necesario trabajar con distintas instancias
-de p5 para cada uno. es menos intuitivo, pero safa. este es un ejemplo:
+si una misma pagina contiene varios sketchs, es necesario trabajar con distintas
+instancias de p5 para cada uno. es menos intuitivo, pero safa. este es un ejemplo:
 https://editor.p5js.org/caminofarol/sketches/r609C2cs
 
 si se quiere mostrar cada lienzo con sus propias medidas, entonces hay que
@@ -338,7 +342,7 @@ habría que usar el metodo .getElementsByClassName() y trabajar con arreglos.
 otra forma de resolverlo es trabajar con <iframe> en los que se incruste
 cada sketch como una mini pagina dentro de la pagina general. en ese caso
 la maquetación se hace directamente para el iframe (no es necesario el div,
-ni trabajar con multiples instancias de p5). en el interior, cada skecth
+ni trabajar con instancias multiples de p5). en el interior, cada skecth
 se adapta a su propia ventana de contexto, algo similar al ejemplo 1.
 
 me parece un enfoque más práctico, más escalable y más facil de compartir. 
