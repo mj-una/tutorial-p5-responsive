@@ -66,7 +66,11 @@ y descomentar la siguiente (que dice ".paddingTop"). asi el sketch quedará
 un poco mas arriba que el centro, con la ventaja de que es menos probable
 q una interfaz tape por completo el margen inferior.
 
-la forma original funciona perfecto para ver desde compu y muchos celulares.
+ajustable: a -> [cnv.style.paddingTop] se le asigna -> [mrg * 0.5 + "vh"]
+el valor [0.5] se puede disminuir o aumentar (entre 0 y 1) para ajustar el tamaño
+del margen superior (mientras mas margen haya arriba, menos habrá abajo)
+
+la forma original funciona perfecto para ver desde compu y algunos celulares.
 en esos caso la forma alternativa se verá menos prolija visualmente, pero sirve
 de parche para intentar q en todos los demas casos se vea algo de margen inferior
 y no quede topando el lienzo con una interfaz del celular.
