@@ -140,8 +140,9 @@ desde el editor de p5 online hasta una pagina web publicada
 
 .....................................
 
-19. si quieres modificar algo puedes editar directamente los archivos, o eliminarlos, 
-    o subir otros nuevos (en la seccion "code") 
+19. si quieres modificar algo, en la seccion "code" puedes editar directamente los archivos
+    o eliminarlos. tambien puedes subir más archivos, repitiendo lo de "add file".
+    cualquier cambio q hagas tarda unos minutos en verse reflejado. 
     
 
 .....................................
@@ -156,6 +157,7 @@ desde el editor de p5 online hasta una pagina web publicada
 sobre github pages:
 
  -  es gratis pero si recibe x cantidad de trafico se limitan las visitas
+ -  puedes crear todos los repositorios que quieras (asi q tambien paginas)
  -  puedes personalizar el link si tienes un nombre de dominio propio
  -  solo funciona como front end (no se puede conectar a una base de datos por ejemplo)
  -  si tu pagina crece y lo necesitas, puedes vincular el repositorio con un servicio
@@ -167,7 +169,8 @@ sobre github:
  -  es una plataforma para alojar codigo y participar en proyectos colaborativos
  -  funciona sobre git, que es un sistema de control de versiones (en q todas las
     actualizaciones que haces a tu codigo quedan guardadas de forma accesible)
- -  tiene una curva de aprendizaje un poco pesada, pero es muuuy util
+ -  tiene una curva de aprendizaje lenta y siemrpe te falta saber un poco mas,
+    pero es muy muy muy util, asi q todo lo q aprendas vale el esfuerzo.
 
 
 una excelente forma de empezar:
@@ -181,10 +184,14 @@ tutoriales de git/github de la catedra laccabanne (2022)
     
     parte 3
     https://youtu.be/TUoZ3-YFfco?si=qcVBMIfdNKJqEBGe
-    
-    puede ser dificil acostumbrarse al principio, pero de verdad lo vale.
-    trabajar desde repositorios locales y desde un editor tipo vs code o similar
+
+    trabajar desde repositorios locales y desde un editor tipo vs code (o similar)
     permite manejar mucho mejor el codigo, los archivos y los cambios q hagas.
     ademas se respalda en la nube y se puede compartir facilmente
+
+    puede ser un poco dificil acostumbrarse al principio, pero intenta y repite.
+    la mejor forma de aprender es con el uso. cada vez se hará un poco mas facil.
+
+    saludos!
     
 ```
