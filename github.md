@@ -136,14 +136,16 @@ desde el editor de p5 online hasta una pagina web publicada
 
 .....................................
 
-18. si quieres bajar la pagina, vuelve al paso 14 y selecciona "none" -> "save"
+18. si quieres dar de bajar la pagina: vuelve al paso 14 y selecciona "none" -> "save".
+    la podrás volver a dar de alta cambiandolo de vuelta a "main"
+
     (tambien existe la opcion "unpublish page", pero en caso de que luego quieras
-    volver a publicarla vas a tener q crear una nueva rama)
+    publicarla de nuevo vas a tener q crear una nueva rama)
 
 
 .....................................
 
-19. si quieres modificar algo, en la seccion "code" puedes editar directamente los archivos
+19. si quieres modificar algo: en la seccion "code" puedes editar directamente los archivos
     o eliminarlos. tambien puedes subir más archivos, repitiendo lo de "add file".
     cualquier cambio q hagas tarda unos minutos en verse reflejado. 
     
@@ -152,7 +154,8 @@ desde el editor de p5 online hasta una pagina web publicada
 
 20. si quieres eliminar el repositorio completo puedes hacerlo en "settings", baja
     hasta el final donde dice "delete this repository". para confirmar te va a pedir
-    que escribas [nombre de usuario]/[nombre del repo], luego q ingreses tu contraseña
+    que escribas [nombre de usuario]/[nombre del repo], luego q ingreses tu contraseña.
+    es definitivo, tendras q volver a crear un repo nuevo en caso q te arrepientas.
 
 
 .....................................
