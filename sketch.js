@@ -124,7 +124,6 @@ function windowResized() {
     // "vh" es una unidad de medida en porcentajes de css (siglas de "viewport height"),
     // donde 100% es todo el alto del contexto de visualización. y "vw" es para el ancho.
     // se concatena para q css reciba un string de [valor] + [unidad de medida]
-    cnv.style.margin = mrg + "vw";
    
     // el lienzo ocupa todo el alto, menos los margenes de arriba y abajo
     cnv.style.height = (100 - mrg * 2) + "vh";
@@ -137,7 +136,6 @@ function windowResized() {
     // caso vertical
 
     // lo mismo pero cambiando height por width y vh por vw
-    cnv.style.margin = mrg + "vh";
     cnv.style.width = (100 - mrg * 2) + "vw";
     cnv.style.height = ((100 - mrg * 2) / width) * height + "vw";
   }
