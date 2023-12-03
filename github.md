@@ -194,12 +194,12 @@ tutoriales de git/github de la catedra laccabanne (2022)
     parte 3
     https://youtu.be/TUoZ3-YFfco?si=qcVBMIfdNKJqEBGe
 
-    trabajar desde repositorios locales y desde un editor tipo vs code (o similar)
+    trabajar desde repositorios locales en un editor como vs code (o similar)
     permite manejar mucho mejor el codigo, los archivos y los cambios q hagas.
     ademas se respaldan en la nube y se pueden compartir facilmente
 
     es un poco dificil acostumbrarse al principio, pero intentalo y repitelo.
-    la mejor forma de aprender es con el uso. cada vez se te hará un poco mas fácil.
+    la mejor forma de aprender es con el uso. cada vez se te hará un poco mas fácil
 
     saludos!
     
