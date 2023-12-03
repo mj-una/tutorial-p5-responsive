@@ -137,17 +137,19 @@ desde el editor de p5 online hasta una pagina web publicada
 .....................................
 
 18. si quieres dar de bajar la pagina: vuelve al paso 14 y selecciona "none" -> "save".
-    la podrás volver a dar de alta cambiandolo de vuelta a "main"
+    la podrás volver a dar de alta cambiandolo de nuevo a "main"
 
-    (tambien existe la opcion "unpublish page", pero en caso de que luego quieras
-    publicarla de nuevo vas a tener q crear una nueva rama)
+    tambien existe la opcion "unpublish page", pero en caso de que luego quieras
+    publicarla de vuelta vas a tener q crear una nueva rama ("branch") y es mas complicado
 
 
 .....................................
 
-19. si quieres modificar algo: en la seccion "code" puedes editar directamente los archivos
-    o eliminarlos. tambien puedes subir más archivos, repitiendo lo de "add file".
-    cualquier cambio q hagas tarda unos minutos en verse reflejado. 
+19. si quieres modificar algo: en la seccion "code" puedes abrir los archivos y editar
+    directamente el codigo (clickea el icono del lapiz arriba a la derecha, cuando termines
+    clickea "commit changes") o eliminarlos (en los tres puntitos de arriba a la derecha,
+    luego baja y click en "delete file"). tambien puedes subir más archivos, repitiendo
+    lo de "add file". cualquier cambio q hagas tarda unos minutos en verse reflejado. 
     
 
 .....................................
