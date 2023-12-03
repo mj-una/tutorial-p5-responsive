@@ -109,7 +109,7 @@ desde el editor de p5 online hasta una pagina web publicada
     y del nombre del repo, el icono de mas a la derecha que dice "settings"
     justo al lado de "insights").
 
-    se abirá un menu, busca entre las secciones de la izquierda donde
+    se abrirá un menu, busca entre las secciones de la izquierda donde
     hay varias opciones: la que dice "pages", justo despues de "codespaces"
     
 
