@@ -76,7 +76,7 @@ desde el editor de p5 online hasta una pagina web publicada
 
 .....................................
 
-8.  marca la opcion "public" (que viene marcada por defecto creo)
+8.  marca la opcion "public" (o ya viene marcada por defecto creo)
 
 
 .....................................
