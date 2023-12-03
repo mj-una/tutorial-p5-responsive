@@ -18,7 +18,8 @@ desde el editor de p5 online hasta una pagina web publicada
 .....................................
 
 0.  si tu sketch no usa la libreria p5.sound (para trabajar con sonidos)
-    anda al archivo index.html y elimina esta linea completa:
+    anda al archivo index.html (arriba a la izq, en la flecha justo abajo
+    del boton play) y elimina esta linea completa:
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
