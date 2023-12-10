@@ -186,7 +186,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 
 .....................................
 
-19. si quieres modificar algo: en la seccion "code" puedes [1] abrir los archivos y editar
+19. si quieres modificar algo: en la seccion "code" puedes abrir los archivos y [1] editar
     directamente el codigo (clickea el icono del lapiz arriba a la derecha, cuando termines
     clickea "commit changes") o [2] eliminarlos (en los tres puntitos de arriba a la derecha,
     luego baja y click en "delete file"). tambien puedes [3] subir más archivos, repitiendo
@@ -197,7 +197,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 
     * esto ultimo lo puedes hacer con cualquier repositorio q encuentres en github, aunque hay
     mejores formas de copiar un codigo, como "clonarlo" para mantener su funcionalidad de repo,
-    o "forkearlo" para tener una copia actualizada desde la que puedas proponer cambios
+    o "forkearlo" para tener una copia sincronizada desde la que puedas proponer cambios
     mediante "pull request" al repo original. es interesante para seguir aprendiendo.
   
 
@@ -225,7 +225,9 @@ sobre github:
 
  -  es una plataforma para alojar codigo y participar en proyectos colaborativos
  -  funciona sobre git, que es un sistema de control de versiones (en q todas las
-    actualizaciones que haces a tu codigo quedan guardadas de forma accesible)
+    actualizaciones que haces a tu codigo quedan guardadas de forma accesible...
+    cada "commit" q haces es un cambio en el repo, lo ideal es q sea significativo
+    y q escribas un pequeño comentario para saber qué hiciste).
  -  tiene una curva de aprendizaje lenta y siempre te faltará saber un poco mas
     pero es muy muy muy util, asi q todo lo q aprendas valdrá el esfuerzo.
 
