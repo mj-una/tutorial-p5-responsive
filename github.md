@@ -4,7 +4,7 @@ TUTORIAL BASICO GITHUB PAGES
 
 
 este tutorial esta pensado para ser intuitivo y realizable por cualquier persona.
-todo se hace desde la interfaz grafica de usuario, sin necesidad de comandos
+todo se hace desde la interfaz grafica, sin necesidad de comandos
 
 para aprender a trabajar con git/github ver los tutoriales del final
 
@@ -126,7 +126,7 @@ desde el editor de p5 online hasta una pagina web publicada
 
 .....................................
 
-16. tarda algunos minutos en estar listo. carga de nuevo la pagina hasta que
+16. tarda algunos minutos en desplegar ("deploy") la pagina. carga de nuevo la pestaña hasta que
     aparezca un mensaje q dice "your site is live at" y el link.
     
 
@@ -137,7 +137,7 @@ desde el editor de p5 online hasta una pagina web publicada
 
 .....................................
 
-18. si quieres dar de bajar la pagina: vuelve al paso 14 y selecciona "none" -> "save".
+18. si quieres dar de baja la pagina: vuelve al paso 14 y selecciona "none" -> "save".
     la podrás volver a dar de alta cambiandolo de nuevo a "main"
 
     tambien existe la opcion "unpublish page", pero en caso de que luego quieras
