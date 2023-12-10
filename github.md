@@ -126,8 +126,8 @@ desde el editor de p5 online hasta una pagina web publicada
 
 .....................................
 
-16. tarda algunos minutos en desplegar ("deploy") la pagina. carga de nuevo la pestaña hasta que
-    aparezca un mensaje q dice "your site is live at" y el link.
+16. tardará algunos minutos en desplegarse ("deploy") la pagina. carga de nuevo la pestaña
+    hasta que aparezca un mensaje q dice "your site is live at" y el link.
     
 
 .....................................
@@ -150,8 +150,13 @@ desde el editor de p5 online hasta una pagina web publicada
     directamente el codigo (clickea el icono del lapiz arriba a la derecha, cuando termines
     clickea "commit changes") o eliminarlos (en los tres puntitos de arriba a la derecha,
     luego baja y click en "delete file"). tambien puedes subir más archivos, repitiendo
-    lo de "add file". cualquier cambio q hagas tarda unos minutos en verse reflejado. 
-    
+    lo de "add file". cualquier cambio q hagas tarda unos minutos en verse reflejado.
+
+    tambien en la seccion "code", junto al boton de "add file" hay un boton que dice "code"
+    si lo clickeas, en la ultima opcion q se abre -> "download zip" puedes descargar el codigo.
+    esto te sirve para cualquier repositorio q encuentres en github (aunque hay mejores formas
+    de hacerlo, como "clonarlo" para no perder su estructura de repo).
+  
 
 .....................................
 
