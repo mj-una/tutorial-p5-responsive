@@ -142,8 +142,8 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 .....................................
 
 13. ahora hay que publicar la página. una forma simple de hacerlo es en los ajustes del repo.
-    busca en la barra que está abajo del logo de github y del nombre del repo -> clickea en
-    "settings" (el icono de mas a la derecha, justo el siguiente despues de "insights").
+    en la barra que está abajo del logo de github y del nombre del repo -> clickea "settings"
+    (es el icono de mas a la derecha, justo el siguiente despues de "insights").
 
     se abrirá un menu. busca en la seccion de la izquierda donde hay varias opciones:
     clickea la que dice "pages" (justo despues de "codespaces")
