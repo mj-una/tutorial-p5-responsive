@@ -35,18 +35,18 @@ desde el editor de p5 online hasta una pagina web publicada
 
 .....................................
 
-2.  crea una nueva carpeta en tu escritorio (o donde quieras)
+2.  crea una Nueva Carpeta en tu escritorio (o donde quieras)
 
 
 .....................................
 
-3.  anda a tus descargas, extrae los archivos del .zip descargado hacia la nueva carpeta
+3.  anda a tus descargas, extrae los archivos del .zip descargado hacia la Nueva Carpeta
     (click derecho -> "extraer todo" -> "examinar" -> buscar la carpeta)
 
 
 .....................................
 
-4.  en la carpeta: abrir "index.html" y revisar cómo se verá el sketch en el navegador.
+4.  en la Carpeta: abrir "index.html" y revisar cómo se verá el sketch en el navegador.
     los archivos "p5.js" y "p5.sound.min.js" contienen la libreria completa de p5
     los puedes eliminar si quieres pq pesan bastante y de todos modos la libreria
     ya está linkeada en el html
@@ -65,7 +65,7 @@ desde el editor de p5 online hasta una pagina web publicada
 .....................................
 
 7.  elige un nombre para el repositorio. no puede tener espacios ni caracteres raros
-    sí puede tener guion "-" y guion bajo "_". ojo q el link resultante será asi:
+    sí puede tener guion "-" o guion bajo "_". ojo q el link resultante será asi:
 
         [nombre de usuario].github.io/[nombre del repo]
 
@@ -94,13 +94,13 @@ desde el editor de p5 online hasta una pagina web publicada
 
 11. ya está listo el repositorio, que es como una carpeta online donde guardar cosas.
     ahora hay que subir los archivos. en el boton "add file" selecciona "upload files".
-    puedes arrastrarlos desde la nueva carpeta o seleccionarlos con "choose you files"
+    puedes arrastrarlos desde la Nueva Carpeta o seleccionarlos con "choose you files"
 
-    IMPORTANTE: no subas la carpeta en sí, sino q abrela y selecciona directamente
-    los archivos (.html, .css, .js, etc) y subcarpetas internas (si hay).
+    IMPORTANTE: no subas la Carpeta en sí, sino q abrila y selecciona directamente
+    los archivos (.html, .css, .js, etc) y subcarpetas internas (si las hay).
 
     "index.html" tiene que ser visible desde el inicio del repo, o sea tiene que estar
-    en la "raiz" ("root"), equivalente a como estaba dentro de la nueva carpeta.
+    en la raiz ("root"), equivalente a como estaba dentro de la Nueva Carpeta.
 
 
 .....................................
