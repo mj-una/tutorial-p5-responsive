@@ -118,7 +118,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 .....................................
 
 11. ya está listo el repositorio, que es como una carpeta online donde guardar cosas
-    y que tiene muchas funcionalidades utiles para ir aprendiendo mas adelante
+    y que tiene muchas funcionalidades para ir aprendiendo mas adelante
 
     ahora hay que subir los archivos. en el boton "add file" selecciona "upload files".
     puedes arrastrarlos desde la Nueva Carpeta o seleccionarlos con "choose your files"
