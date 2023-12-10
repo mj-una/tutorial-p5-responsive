@@ -2,24 +2,29 @@
 
 TUTORIAL BASICO GITHUB PAGES
 
+este tutorial explica paso a paso como publicar una pagina web en github
+(es gratis pero con limitaciones en cuanto a trafico q soporta)
 
-este tutorial esta pensado para ser intuitivo y realizable por cualquier persona.
+está pensado para ser intuitivo y realizable por cualquier persona.
 todo se hace desde la interfaz grafica, sin necesidad de comandos
 
 para aprender a trabajar con git/github ver los tutoriales del final
 
+si encuentras un error o tienes una sugerencia porfa dime y lo cambio!
+ultima actualizacion: 10 Dic 2023
+
 
 PASO A PASO
 
-desde el editor de p5 online hasta una pagina web publicada
-(es gratis pero con limitaciones en cuanto a trafico)
+desde el editor de p5 online hasta una pagina web publicada (pasos 0 a 17)
+si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el paso 5.
 
 
 .....................................
 
-0.  si tu sketch no usa la libreria p5.sound (para trabajar con sonidos)
-    anda al archivo index.html (arriba a la izq, en la flecha justo abajo
-    del boton play) y elimina esta linea completa:
+0.  si tu sketch no usa la libreria p5.sound (para trabajar con sonidos) entonces
+    anda al archivo index.html (arriba a la izq, en la flecha justo abajo del boton play)
+    y elimina esta linea completa:
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
 
@@ -29,10 +34,10 @@ desde el editor de p5 online hasta una pagina web publicada
     en cambio p5.sound es el segundo <script> y termina asi: /p5.sound.min.js"></script>
 
     * el link del atributo src puede variar un poco dependiendo de la version de p5 q se use.
-    normalmente es recomendable usar la que venga por defecto en el editor (tal como está).
+    es recomendable usar la que venga por defecto en el editor (tal como esté)
 
-    * ademas, puedes cambiar <html lang="en"> por lang="es" para que tu pagina esté en español
-    así, al abrirla no te aparecerá la ventanita de google q te pregunta si quieres traducirla.
+    * ademas, puedes cambiar <html lang="en"> por lang="es" para que tu pagina esté en español.
+    así, al abrirla no te aparecerá la ventanita de google q te pregunta si quieres traducirla
 
 
 .....................................
@@ -49,24 +54,30 @@ desde el editor de p5 online hasta una pagina web publicada
 .....................................
 
 3.  anda a tus descargas, extrae los archivos del .zip descargado hacia la Nueva Carpeta
-    (click derecho -> "extraer todo" -> "examinar" -> busca y selecciona la carpeta)
+    (click derecho -> "extraer todo" -> "examinar" -> busca y selecciona la Carpeta)
 
 
 .....................................
 
-4.  en la Carpeta: abrir "index.html" y revisar cómo se verá el sketch en el navegador.
-    los archivos "p5.js" y "p5.sound.min.js" contienen la libreria completa de p5,
-    puedes eliminarlos si quieres pq pesan bastante y de todos modos la libreria
-    ya está linkeada en el html
+4.  en la Carpeta: abre "index.html" y revisa cómo se verá el sketch en el navegador.
 
     * si tu sketch funcionaba bien en el editor, pero ahora no se ve -> puede ser que
     en el paso 0 eliminaste la linea equivocada. en ese caso, copia y pega el <script>
     de la biblioteca p5 de otro sketch (o crea un nuevo sketch y vuelve a decargarlo).
 
+    * los archivos "p5.js" y "p5.sound.min.js" contienen la libreria completa de p5
+    en copia local, puedes eliminarlos si quieres pq pesan bastante y de todos modos
+    la libreria ya está linkeada desde el html
+
+    * para proyectos grandes o a largo plazo puede ser mejor incluir las copias locales
+    de las bibliotecas que uses (y cambiar el link del <script src=""> para que refiera
+    los archivos locales y no a los de la nube). asi se evita problemas a futuro por
+    si cambia el link de las versiones online o si dejan de estar disponibles.
+
 
 .....................................
 
-5.  crea una cuenta en github.com (o inicia sesion)
+5.  inicia sesion en github.com (o crea una cuenta)
 
 
 .....................................
@@ -94,7 +105,7 @@ desde el editor de p5 online hasta una pagina web publicada
 .....................................
 
 9.  IMPORTANTE: marca la opcion "add a readme file" (que no viene marcada creo).
-    esto creará un archivo .md en el que puedes describir tu repositorio.
+    esto creará un archivo .md en el que luego puedes describir tu repositorio.
 
     tambien, si quieres selecciona un tipo de licencia (no es obligatorio)
 
@@ -106,7 +117,9 @@ desde el editor de p5 online hasta una pagina web publicada
 
 .....................................
 
-11. ya está listo el repositorio, que es como una carpeta online donde guardar cosas.
+11. ya está listo el repositorio, que es como una carpeta online donde guardar cosas
+    y que tiene muchas funcionalidades utiles para ir aprendiendo mas adelante.
+
     ahora hay que subir los archivos. en el boton "add file" selecciona "upload files".
     puedes arrastrarlos desde la Nueva Carpeta o seleccionarlos con "choose you files"
 
@@ -123,17 +136,16 @@ desde el editor de p5 online hasta una pagina web publicada
     y subcarpetas tienen que quedar colocados de forma equivalente a como estaban ordenados
     dentro de la Nueva Carpeta.
 
-    * si está mal -> repite desde el paso 6. al terminar podrás eliminar el repo antiguo.
+    * si está mal -> repite desde el paso 6. puedes eliminar el repo malo segun el paso 20.
 
 
 .....................................
 
-13. ahora hay que publicar la página. una forma simple de hacerlo es
-    en los ajustes del repositorio. busca en la barra que está abajo del logo de github
-    y del nombre del repo -> clickea el icono de mas a la derecha que dice "settings"
-    (justo el siguiente despues de "insights").
+13. ahora hay que publicar la página. una forma simple de hacerlo es en los ajustes del repo.
+    busca en la barra que está abajo del logo de github y del nombre del repo -> clickea en
+    "settings" (el icono de mas a la derecha, justo el siguiente despues de "insights").
 
-    se abrirá un menu, busca en la seccion de la izquierda donde hay varias opciones:
+    se abrirá un menu. busca en la seccion de la izquierda donde hay varias opciones:
     clickea la que dice "pages" (justo despues de "codespaces")
     
 
@@ -178,12 +190,15 @@ desde el editor de p5 online hasta una pagina web publicada
     directamente el codigo (clickea el icono del lapiz arriba a la derecha, cuando termines
     clickea "commit changes") o [2] eliminarlos (en los tres puntitos de arriba a la derecha,
     luego baja y click en "delete file"). tambien puedes [3] subir más archivos, repitiendo
-    lo de "add file". cualquier cambio q hagas tarda unos minutos en verse reflejado.
+    lo de "add file". cualquier cambio q hagas tardará unos minutos en verse reflejado.
 
     tambien en la seccion "code", junto al boton de "add file" hay un boton que dice "code"
     si lo clickeas, en la ultima opcion q se abre -> "download zip" puedes descargar el codigo.
-    esto te sirve para cualquier repositorio q encuentres en github (aunque hay mejores formas
-    de hacerlo, como "clonarlo" para no perder su estructura de repo).
+
+    * esto ultimo lo puedes hacer con cualquier repositorio q encuentres en github, aunque hay
+    mejores formas de copiar un codigo, como "clonarlo" para mantener su funcionalidad de repo,
+    o "forkearlo" para tener una copia actualizada desde la que puedas proponer cambios
+    mediante "pull request" al repo original. es interesante para seguir aprendiendo.
   
 
 .....................................
@@ -212,7 +227,7 @@ sobre github:
  -  funciona sobre git, que es un sistema de control de versiones (en q todas las
     actualizaciones que haces a tu codigo quedan guardadas de forma accesible)
  -  tiene una curva de aprendizaje lenta y siempre te faltará saber un poco mas
-    pero es muy muy muy util, asi q todo lo q aprendas vale el esfuerzo.
+    pero es muy muy muy util, asi q todo lo q aprendas valdrá el esfuerzo.
 
 
 una excelente forma de empezar:
@@ -227,7 +242,8 @@ tutoriales de git/github de la catedra laccabanne (2022)
     parte 3
     https://youtu.be/TUoZ3-YFfco?si=qcVBMIfdNKJqEBGe
 
-    trabajar desde repositorios locales en un editor como vs code (o similar)
+
+    trabajar desde repositorios locales con un editor como vs code (o similar)
     permite manejar mucho mejor el codigo, los archivos y los cambios q hagas.
     ademas se respaldan en la nube y se pueden compartir facilmente
 
@@ -235,5 +251,6 @@ tutoriales de git/github de la catedra laccabanne (2022)
     la mejor forma de aprender es con el uso. cada vez se te hará un poco mas fácil
 
     saludos!
-    
+
+
 ```
