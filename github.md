@@ -11,7 +11,7 @@ todo se hace desde la interfaz grafica, sin necesidad de comandos
 para aprender a trabajar con git/github ver los tutoriales del final
 
 si encuentras un error o tienes una sugerencia porfa dime y lo cambio!
-ultima actualizacion: 10 Dic 2023
+ -  ultima actualizacion: 10 Dic 2023
 
 
 PASO A PASO
@@ -30,12 +30,13 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 
     IMPORTATNTE:
     * no confundir con la linea anterior, que es la de p5 original y no hay que borrarla.
-    se distinguen pq la de p5 es la primera etiqueta <script> y termina asi: /p5.js"></script>
-    en cambio p5.sound es el segundo <script> y termina asi: /p5.sound.min.js"></script>
+    se distinguen pq la de p5 es primer <script> del <head> y termina asi: /p5.js"></script>
+    en cambio p5.sound es el segundo y termina asi: /p5.sound.min.js"></script>
 
-    * el link del atributo src puede variar un poco dependiendo de la version de p5 q se use.
+    * el link de src="" puede variar un poco dependiendo de la version de p5 q se use.
     es recomendable usar la que venga por defecto en el editor (tal como esté)
 
+    OJOOO:
     * ademas, puedes cambiar <html lang="en"> por lang="es" para que tu pagina esté en español.
     así, al abrirla no te aparecerá la ventanita de google q te pregunta si quieres traducirla
 
@@ -63,7 +64,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 
     * si tu sketch funcionaba bien en el editor, pero ahora no se ve -> puede ser que
     en el paso 0 eliminaste la linea equivocada. en ese caso, copia y pega el <script>
-    de la biblioteca p5 de otro sketch (o crea un nuevo sketch y vuelve a decargarlo)
+    de la biblioteca p5 de otro sketch (o crea un nuevo sketch y vuelve al inicio)
 
     * los archivos "p5.js" y "p5.sound.min.js" contienen la libreria completa de p5
     en copia local, puedes eliminarlos si quieres pq pesan bastante y de todos modos
@@ -88,7 +89,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 .....................................
 
 7.  elige un nombre para el repositorio. no puede tener espacios ni caracteres raros
-    sí puede tener guion "-" o guion bajo "_". ojo q el link resultante será asi:
+    sí puede tener guion "-" o guion bajo "_". ojo q el link de la pagina será asi:
 
         [nombre de usuario].github.io/[nombre del repo]
 
@@ -105,7 +106,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 .....................................
 
 9.  IMPORTANTE: marca la opcion "add a readme file" (que no viene marcada creo),
-    esto creará un archivo .md en el que luego puedes describir tu repositorio
+    esto creará un archivo markdown (.md) en el que luego puedes describir tu repo
 
     tambien, si quieres selecciona un tipo de licencia (no es obligatorio)
 
@@ -124,7 +125,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
     puedes arrastrarlos desde la Nueva Carpeta o seleccionarlos con "choose your files"
 
     IMPORTANTE: no subas la Carpeta en sí, sino q abrila y selecciona directamente
-    los archivos (.html, .css, .js, etc) y subcarpetas internas (si las hay)
+    todos los archivos (.html, .css, .js, etc) y subcarpetas (si las hay)
 
 
 .....................................
@@ -136,7 +137,8 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
     y subcarpetas tienen que quedar colocados de forma equivalente a como estaban ordenados
     dentro de la Nueva Carpeta
 
-    * si está mal -> repite desde el paso 6. puedes eliminar el repo malo segun el paso 20
+    * si está mal -> intenta arreglarlo quitando y subiendo archivos según pasos 19 y 11.
+    o elimina el repo segun el paso 20 y repite todo desde el paso 6.
 
 
 .....................................
@@ -177,7 +179,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 
 .....................................
 
-18. si quieres dar de baja la pagina: vuelve al paso 14 y cambia "branch" a "none" -> "save".
+18. si quieres dar de baja la pagina: vuelve al paso 14 y cambia "main" a "none" -> "save".
     la podrás volver a dar de alta seleccionando de nuevo "main" -> "save"
 
     tambien existe la opcion "unpublish page", pero en caso de que luego quieras
@@ -198,7 +200,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
     * esto ultimo lo puedes hacer con cualquier repositorio q encuentres en github, aunque hay
     mejores formas de copiar un codigo, como "clonarlo" para mantener su funcionalidad de repo,
     o "forkearlo" para tener una copia sincronizada desde la que puedas proponer cambios
-    mediante "pull request" al repo original. es interesante para seguir aprendiendo
+    mediante "pull request" al repo original. es interesante para ir aprendiendo
   
 
 .....................................
@@ -228,6 +230,9 @@ sobre github:
     actualizaciones que haces a tu codigo quedan guardadas de forma accesible...
     cada "commit" q haces es un cambio en el repo, lo ideal es q sea significativo
     y q escribas un pequeño comentario para saber qué hiciste).
+ -  todo lo q haces en la interfaz grafica tambien se puede hacer desde comandos
+    de git. pero no al reves. con git puedes hacer muchas otras cosas, mas rapido,
+    con mas detalle y mayor complejidad. 
  -  tiene una curva de aprendizaje lenta y siempre te faltará saber un poco mas
     pero es muy muy muy util, asi q todo lo q aprendas valdrá el esfuerzo
 
@@ -247,7 +252,7 @@ tutoriales de git/github de la catedra laccabanne (2022)
 
     trabajar desde repositorios locales con un editor como vs code (o similar)
     permite manejar mucho mejor el codigo, los archivos y los cambios q hagas.
-    ademas se respaldan en la nube y se pueden compartir facilmente
+    ademas se respalda en la nube y se puede compartir facilmente
 
     es un poco dificil acostumbrarse al principio, pero intentalo y repitelo.
     la mejor forma de aprender es con el uso. cada vez se te hará un poco mas fácil
@@ -256,3 +261,4 @@ tutoriales de git/github de la catedra laccabanne (2022)
 
 
 ```
+
