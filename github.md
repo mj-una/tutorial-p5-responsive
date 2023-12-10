@@ -17,7 +17,7 @@ ultima actualizacion: 10 Dic 2023
 PASO A PASO
 
 desde el editor de p5 online hasta una pagina web publicada (pasos 0 a 17)
-si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el paso 5.
+si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el paso 5
 
 
 .....................................
@@ -59,11 +59,11 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 
 .....................................
 
-4.  en la Carpeta: abre "index.html" y revisa cómo se verá el sketch en el navegador.
+4.  en la Carpeta: abre "index.html" y revisa cómo se verá el sketch en el navegador
 
     * si tu sketch funcionaba bien en el editor, pero ahora no se ve -> puede ser que
     en el paso 0 eliminaste la linea equivocada. en ese caso, copia y pega el <script>
-    de la biblioteca p5 de otro sketch (o crea un nuevo sketch y vuelve a decargarlo).
+    de la biblioteca p5 de otro sketch (o crea un nuevo sketch y vuelve a decargarlo)
 
     * los archivos "p5.js" y "p5.sound.min.js" contienen la libreria completa de p5
     en copia local, puedes eliminarlos si quieres pq pesan bastante y de todos modos
@@ -72,7 +72,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
     * para proyectos grandes o a largo plazo puede ser mejor incluir las copias locales
     de las bibliotecas que uses (y cambiar el link del <script src=""> para que refiera
     los archivos locales y no a los de la nube). asi se evita problemas a futuro por
-    si cambia el link de las versiones online o si dejan de estar disponibles.
+    si cambia el link de las versiones online o si dejan de estar disponibles
 
 
 .....................................
@@ -104,8 +104,8 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 
 .....................................
 
-9.  IMPORTANTE: marca la opcion "add a readme file" (que no viene marcada creo).
-    esto creará un archivo .md en el que luego puedes describir tu repositorio.
+9.  IMPORTANTE: marca la opcion "add a readme file" (que no viene marcada creo),
+    esto creará un archivo .md en el que luego puedes describir tu repositorio
 
     tambien, si quieres selecciona un tipo de licencia (no es obligatorio)
 
@@ -118,13 +118,13 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 .....................................
 
 11. ya está listo el repositorio, que es como una carpeta online donde guardar cosas
-    y que tiene muchas funcionalidades utiles para ir aprendiendo mas adelante.
+    y que tiene muchas funcionalidades utiles para ir aprendiendo mas adelante
 
     ahora hay que subir los archivos. en el boton "add file" selecciona "upload files".
-    puedes arrastrarlos desde la Nueva Carpeta o seleccionarlos con "choose you files"
+    puedes arrastrarlos desde la Nueva Carpeta o seleccionarlos con "choose your files"
 
     IMPORTANTE: no subas la Carpeta en sí, sino q abrila y selecciona directamente
-    los archivos (.html, .css, .js, etc) y subcarpetas internas (si las hay).
+    los archivos (.html, .css, .js, etc) y subcarpetas internas (si las hay)
 
 
 .....................................
@@ -134,16 +134,16 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
     * revisa si subiste los archivos de manera correcta: "index.html" tiene que ser visible
     desde el inicio del repo, o sea tiene que estar en la raiz ("root"). todos los archivos
     y subcarpetas tienen que quedar colocados de forma equivalente a como estaban ordenados
-    dentro de la Nueva Carpeta.
+    dentro de la Nueva Carpeta
 
-    * si está mal -> repite desde el paso 6. puedes eliminar el repo malo segun el paso 20.
+    * si está mal -> repite desde el paso 6. puedes eliminar el repo malo segun el paso 20
 
 
 .....................................
 
 13. ahora hay que publicar la página. una forma simple de hacerlo es en los ajustes del repo.
     en la barra que está abajo del logo de github y del nombre del repo -> clickea "settings"
-    (es el icono de mas a la derecha, justo el siguiente despues de "insights").
+    (es el icono de mas a la derecha, justo el siguiente despues de "insights")
 
     se abrirá un menu. busca en la seccion de la izquierda donde hay varias opciones:
     clickea la que dice "pages" (justo despues de "codespaces")
@@ -161,24 +161,24 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 
 .....................................
 
-15. al lado aparecerá un boton "/(root)" y otro "save". clickea "save" y espera.
+15. al lado aparecerá un boton "/(root)" y otro "save". clickea "save" y espera
 
 
 .....................................
 
 16. tardará algunos minutos en desplegarse ("deploy") la pagina. carga de nuevo la pestaña
-    hasta que aparezca un mensaje q dice "your site is live at" y el link.
+    hasta que aparezca un mensaje q dice "your site is live at" y el link
     
 
 .....................................
 
-17. LISTO!!! puedes copiar y compartir ese link con cualquier persona.
+17. LISTO!!! puedes copiar y compartir ese link con cualquier persona
 
 
 .....................................
 
 18. si quieres dar de baja la pagina: vuelve al paso 14 y cambia "branch" a "none" -> "save".
-    la podrás volver a dar de alta seleccionando de nuevo "main" -> "save".
+    la podrás volver a dar de alta seleccionando de nuevo "main" -> "save"
 
     tambien existe la opcion "unpublish page", pero en caso de que luego quieras
     publicarla de vuelta vas a tener q crear una nueva rama ("branch") y es mas complicado
@@ -190,15 +190,15 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
     directamente el codigo (clickea el icono del lapiz arriba a la derecha, cuando termines
     clickea "commit changes") o [2] eliminarlos (en los tres puntitos de arriba a la derecha,
     luego baja y click en "delete file"). tambien puedes [3] subir más archivos, repitiendo
-    lo de "add file". cualquier cambio q hagas tardará unos minutos en verse reflejado.
+    lo de "add file". cualquier cambio q hagas tardará unos minutos en verse reflejado
 
     tambien en la seccion "code", junto al boton de "add file" hay un boton que dice "code"
-    si lo clickeas, en la ultima opcion q se abre -> "download zip" puedes descargar el codigo.
+    si lo clickeas, en la ultima opcion q se abre -> "download zip" puedes descargar el codigo
 
     * esto ultimo lo puedes hacer con cualquier repositorio q encuentres en github, aunque hay
     mejores formas de copiar un codigo, como "clonarlo" para mantener su funcionalidad de repo,
     o "forkearlo" para tener una copia sincronizada desde la que puedas proponer cambios
-    mediante "pull request" al repo original. es interesante para seguir aprendiendo.
+    mediante "pull request" al repo original. es interesante para seguir aprendiendo
   
 
 .....................................
@@ -206,7 +206,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 20. si quieres eliminar el repositorio completo puedes hacerlo en "settings", baja
     hasta el final donde dice "delete this repository". para confirmar te va a pedir
     que escribas [nombre de usuario]/[nombre del repo], luego q ingreses tu contraseña.
-    es definitivooo, tendras q volver a crear un repo nuevo en caso q te arrepientas.
+    es definitivooo, tendras q volver a crear un repo nuevo en caso q te arrepientas
 
 
 .....................................
@@ -218,7 +218,7 @@ sobre github pages:
  -  puedes personalizar el link si tienes un nombre de dominio propio
  -  solo funciona como front end (no se puede conectar a una base de datos por ejemplo)
  -  si tu pagina crece y lo necesitas, puedes vincular el repositorio con un servicio
-    de hosting externo q permita más trafico, y seguir manejando el codigo desde github.
+    de hosting externo q permita más trafico, y seguir manejando el codigo desde github
     
     
 sobre github:
@@ -229,7 +229,7 @@ sobre github:
     cada "commit" q haces es un cambio en el repo, lo ideal es q sea significativo
     y q escribas un pequeño comentario para saber qué hiciste).
  -  tiene una curva de aprendizaje lenta y siempre te faltará saber un poco mas
-    pero es muy muy muy util, asi q todo lo q aprendas valdrá el esfuerzo.
+    pero es muy muy muy util, asi q todo lo q aprendas valdrá el esfuerzo
 
 
 una excelente forma de empezar:
