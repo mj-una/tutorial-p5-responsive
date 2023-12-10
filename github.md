@@ -67,11 +67,11 @@ desde el editor de p5 online hasta una pagina web publicada
 7.  elige un nombre para el repositorio. no puede tener espacios ni caracteres raros
     sí puede tener guion "-" y guion bajo "_". ojo q el link resultante será asi:
 
-      [nombre de usuario].github.io/[nombre del repo]
+        [nombre de usuario].github.io/[nombre del repo]
 
     si haces un repositorio con el mismo nombre q el usuario el link será así:
 
-      [nombre de usuario].github.io
+        [nombre de usuario].github.io
 
 
 .....................................
@@ -95,6 +95,10 @@ desde el editor de p5 online hasta una pagina web publicada
 11. ya está listo el repositorio, que es como una carpeta online donde guardar cosas.
     ahora hay que subir los archivos. en el boton "add file" selecciona "upload files".
     puedes arrastrarlos desde la nueva carpeta o seleccionarlos con "choose you files"
+
+    es importante que no subas la carpeta en sí, sino que la abras y selecciones
+    los archivos directamente. tiene que quedar "index.html" visible desde el inicio,
+    en la "raiz" ("root") del repo, equivalente a como estaba en la carpeta.
 
 
 .....................................
@@ -132,7 +136,7 @@ desde el editor de p5 online hasta una pagina web publicada
 
 .....................................
 
-17. ya está listo. puedes copiar y compartir ese link con cualquier persona.
+17. ya está listo!!! puedes copiar y compartir ese link con cualquier persona.
 
 
 .....................................
