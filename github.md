@@ -81,8 +81,8 @@ desde el editor de p5 online hasta una pagina web publicada
 
 .....................................
 
-9.  marca la opcion "add a readme file" (que no viene marcada)
-    y selecciona un tipo de licencia si quieres
+9.  IMPORTANTE: marca la opcion "add a readme file" (que no viene marcada creo).
+    tambien, si quieres selecciona un tipo de licencia (no es obligatorio)
 
 
 .....................................
@@ -96,9 +96,11 @@ desde el editor de p5 online hasta una pagina web publicada
     ahora hay que subir los archivos. en el boton "add file" selecciona "upload files".
     puedes arrastrarlos desde la nueva carpeta o seleccionarlos con "choose you files"
 
-    es importante que no subas la carpeta en sí, sino que la abras y selecciones
-    los archivos directamente. tiene que quedar "index.html" visible desde el inicio,
-    en la "raiz" ("root") del repo, equivalente a como estaba en la carpeta.
+    IMPORTANTE: no subas la carpeta en sí, sino q abrela y selecciona directamente
+    los archivos (.html, .css, .js, etc) y subcarpetas internas (si hay).
+
+    "index.html" tiene que ser visible desde el inicio del repo, o sea tiene que estar
+    en la "raiz" ("root"), equivalente a como estaba dentro de la nueva carpeta.
 
 
 .....................................
