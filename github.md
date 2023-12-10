@@ -21,16 +21,24 @@ desde el editor de p5 online hasta una pagina web publicada
     anda al archivo index.html (arriba a la izq, en la flecha justo abajo
     del boton play) y elimina esta linea completa:
 
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
 
+    IMPORTATNTE:
+    * no confundir con la linea anterior, que es la de p5 original y no hay que borrarla.
+    se distinguen pq la de p5 es la primera etiqueta <script> y termina asi: /p5.js"></script>
+    en cambio p5.sound es el segundo <script> y termina asi: /p5.sound.min.js"></script>
 
-    (no confundir con la linea anterior, que es la de p5 original y no hay que borrarla)
+    * el link del atributo src puede variar un poco dependiendo de la version de p5 q se use.
+    normalmente es recomendable usar la que venga por defecto en el editor (tal como está).
+
+    * ademas, puedes cambiar <html lang="en"> por lang="es" para que tu pagina esté en español
+    así, al abrirla no te aparecerá la ventanita de google q te pregunta si quieres traducirla.
 
 
 .....................................
 
 1.  descarga el sketch del editor online de p5. en "file" -> "download"
+    (para poder hacerlo tienes q estar trabajando desde tu cuenta)
 
 
 .....................................
@@ -41,15 +49,19 @@ desde el editor de p5 online hasta una pagina web publicada
 .....................................
 
 3.  anda a tus descargas, extrae los archivos del .zip descargado hacia la Nueva Carpeta
-    (click derecho -> "extraer todo" -> "examinar" -> buscar la carpeta)
+    (click derecho -> "extraer todo" -> "examinar" -> busca y selecciona la carpeta)
 
 
 .....................................
 
 4.  en la Carpeta: abrir "index.html" y revisar cómo se verá el sketch en el navegador.
-    los archivos "p5.js" y "p5.sound.min.js" contienen la libreria completa de p5
-    los puedes eliminar si quieres pq pesan bastante y de todos modos la libreria
+    los archivos "p5.js" y "p5.sound.min.js" contienen la libreria completa de p5,
+    puedes eliminarlos si quieres pq pesan bastante y de todos modos la libreria
     ya está linkeada en el html
+
+    * si tu sketch funcionaba bien en el editor, pero ahora no se ve -> puede ser que
+    en el paso 0 eliminaste la linea equivocada. en ese caso, copia y pega el <script>
+    de la biblioteca p5 de otro sketch (o crea un nuevo sketch y vuelve a decargarlo).
 
 
 .....................................
