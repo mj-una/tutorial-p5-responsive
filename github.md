@@ -30,8 +30,8 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 
     IMPORTATNTE:
     * no confundir con la linea anterior, que es la de p5 original y no hay que borrarla.
-    se distinguen pq la de p5 es primer <script> del <head> y termina asi: /p5.js"></script>
-    en cambio p5.sound es el segundo y termina asi: /p5.sound.min.js"></script>
+    se distinguen pq la de p5 es el primer <script> del <head> y termina asi: /p5.js"></script>
+    en cambio la de p5.sound es el segundo <script> y termina asi: /p5.sound.min.js"></script>
 
     * el link de src="" puede variar un poco dependiendo de la version de p5 q se use.
     es recomendable usar la que venga por defecto en el editor (tal como esté)
@@ -61,6 +61,9 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 .....................................
 
 4.  en la Carpeta: abre "index.html" y revisa cómo se verá el sketch en el navegador
+
+    * para que el lienzo se adapte al tamaño de la pantalla hice este tutorial:
+    https://github.com/mj-una/tutorial-p5-responsive/blob/main/sketch.js
 
     * si tu sketch funcionaba bien en el editor, pero ahora no se ve -> puede ser que
     en el paso 0 eliminaste la linea equivocada. en ese caso, copia y pega el <script>
