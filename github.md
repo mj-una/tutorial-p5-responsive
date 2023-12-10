@@ -82,6 +82,8 @@ desde el editor de p5 online hasta una pagina web publicada
 .....................................
 
 9.  IMPORTANTE: marca la opcion "add a readme file" (que no viene marcada creo).
+    esto creará un archivo .md en el que puedes describir tu repositorio.
+
     tambien, si quieres selecciona un tipo de licencia (no es obligatorio)
 
 
@@ -99,30 +101,38 @@ desde el editor de p5 online hasta una pagina web publicada
     IMPORTANTE: no subas la Carpeta en sí, sino q abrila y selecciona directamente
     los archivos (.html, .css, .js, etc) y subcarpetas internas (si las hay).
 
-    "index.html" tiene que ser visible desde el inicio del repo, o sea tiene que estar
-    en la raiz ("root"), equivalente a como estaba dentro de la Nueva Carpeta.
-
 
 .....................................
 
 12. espera a que se suban los archivos y clickea "commit changes"
 
+    * revisa si subiste los archivos de manera correcta: "index.html" tiene que ser visible
+    desde el inicio del repo, o sea tiene que estar en la raiz ("root"). todos los archivos
+    y subcarpetas tienen que quedar colocados de forma equivalente a como estaban ordenados
+    dentro de la Nueva Carpeta.
+
+    * si está mal -> repite desde el paso 6. al terminar podrás eliminar el repo antiguo.
+
 
 .....................................
 
 13. ahora hay que publicar la página. una forma simple de hacerlo es
-    en los ajustes del repositorio (en la barra que está abajo del logo
-    y del nombre del repo, el icono de mas a la derecha que dice "settings"
-    justo al lado de "insights").
+    en los ajustes del repositorio. busca en la barra que está abajo del logo de github
+    y del nombre del repo -> clickea el icono de mas a la derecha que dice "settings"
+    (justo el siguiente despues de "insights").
 
-    se abrirá un menu, busca entre las secciones de la izquierda donde
-    hay varias opciones: la que dice "pages", justo despues de "codespaces"
+    se abrirá un menu, busca en la seccion de la izquierda donde hay varias opciones:
+    clickea la que dice "pages" (justo despues de "codespaces")
     
 
 .....................................
 
-14. en la seccion "build and deployment" están las opciones "source" que tiene que
-    ser "deploy from a branch" y "branch" que dice "none" y hay que cambiarlo a "main".
+14. en la seccion "build and deployment" están:
+
+        "source" que tiene que ser "deploy from a branch"
+        y "branch" que dice "none"
+
+    clickea en "none" y cambialo a "main".
 
 
 .....................................
@@ -138,13 +148,13 @@ desde el editor de p5 online hasta una pagina web publicada
 
 .....................................
 
-17. ya está listo!!! puedes copiar y compartir ese link con cualquier persona.
+17. LISTO!!! puedes copiar y compartir ese link con cualquier persona.
 
 
 .....................................
 
-18. si quieres dar de baja la pagina: vuelve al paso 14 y selecciona "none" -> "save".
-    la podrás volver a dar de alta cambiandolo de nuevo a "main"
+18. si quieres dar de baja la pagina: vuelve al paso 14 y cambia "branch" a "none" -> "save".
+    la podrás volver a dar de alta seleccionando de nuevo "main" -> "save".
 
     tambien existe la opcion "unpublish page", pero en caso de que luego quieras
     publicarla de vuelta vas a tener q crear una nueva rama ("branch") y es mas complicado
@@ -152,10 +162,10 @@ desde el editor de p5 online hasta una pagina web publicada
 
 .....................................
 
-19. si quieres modificar algo: en la seccion "code" puedes abrir los archivos y editar
+19. si quieres modificar algo: en la seccion "code" puedes [1] abrir los archivos y editar
     directamente el codigo (clickea el icono del lapiz arriba a la derecha, cuando termines
-    clickea "commit changes") o eliminarlos (en los tres puntitos de arriba a la derecha,
-    luego baja y click en "delete file"). tambien puedes subir más archivos, repitiendo
+    clickea "commit changes") o [2] eliminarlos (en los tres puntitos de arriba a la derecha,
+    luego baja y click en "delete file"). tambien puedes [3] subir más archivos, repitiendo
     lo de "add file". cualquier cambio q hagas tarda unos minutos en verse reflejado.
 
     tambien en la seccion "code", junto al boton de "add file" hay un boton que dice "code"
@@ -169,7 +179,7 @@ desde el editor de p5 online hasta una pagina web publicada
 20. si quieres eliminar el repositorio completo puedes hacerlo en "settings", baja
     hasta el final donde dice "delete this repository". para confirmar te va a pedir
     que escribas [nombre de usuario]/[nombre del repo], luego q ingreses tu contraseña.
-    es definitivo, tendras q volver a crear un repo nuevo en caso q te arrepientas.
+    es definitivooo, tendras q volver a crear un repo nuevo en caso q te arrepientas.
 
 
 .....................................
