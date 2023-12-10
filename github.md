@@ -36,7 +36,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
     * el link de src="" puede variar un poco dependiendo de la version de p5 q se use.
     es recomendable usar la que venga por defecto en el editor (tal como esté)
 
-    OJOOO:
+    OJO: <===
     * ademas, puedes cambiar <html lang="en"> por lang="es" para que tu pagina esté en español.
     así, al abrirla no te aparecerá la ventanita de google q te pregunta si quieres traducirla
 
@@ -197,8 +197,8 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
     luego baja y click en "delete file"). tambien puedes [3] subir más archivos, repitiendo
     lo de "add file". cualquier cambio q hagas tardará unos minutos en verse reflejado
 
-    tambien en la seccion "code", junto al boton de "add file" hay un boton que dice "code"
-    si lo clickeas, en la ultima opcion q se abre -> "download zip" puedes descargar el codigo
+    tambien en la seccion "code", junto al boton de "add file" hay un boton que dice "code",
+    si lo clickeas-> en la ultima opcion q se abre-> "download zip" puedes descargar el codigo
 
     * esto ultimo lo puedes hacer con cualquier repositorio q encuentres en github, aunque hay
     mejores formas de copiar un codigo, como "clonarlo" para mantener su funcionalidad de repo,
