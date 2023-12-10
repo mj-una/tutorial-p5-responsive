@@ -74,9 +74,9 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
     la libreria ya está linkeada desde el html
 
     * para proyectos grandes o a largo plazo puede ser mejor incluir las copias locales
-    de las bibliotecas que uses (y cambiar el link del <script src=""> para que refiera
-    los archivos locales y no a los de la nube). asi se evita problemas a futuro por
-    si cambia el link de las versiones online o si dejan de estar disponibles
+    de las bibliotecas que uses (y cambiar el src de los <script> para que se refieran a
+    los archivos locales, por ej: <script src="p5.js">). asi se evita problemas por si
+    a futuro cambia el link de las versiones online o dejan de estar disponibles
 
 
 .....................................
