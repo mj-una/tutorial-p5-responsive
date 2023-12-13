@@ -33,10 +33,13 @@ el ejemplo 1 está listo para copiar y pegar. solo hay que quitar los comentario
 se adapta a cualquier pantalla. le puse flex, asi el canvas siempre quedará al medio.
 se le puede personalizar el tamaño del margen y el color de fondo.
 
-    aqui publiqué el ejemplo 1 (para verlo como pagina web):
+    aqui hay una version sin comentarios:
+    https://editor.p5js.org/martin_julio/sketches/FJdY6lAu0
+
+    aqui publiqué el ejemplo 1 para verlo como pagina web:
     https://mj-una.github.io/tutorial-p5-responsive
 
-    aqui un paso a paso para publicar una pagina web en github pages:
+    aqui un paso a paso para publicar una pagina web en github:
     https://github.com/mj-una/tutorial-p5-responsive/blob/main/github.md
 
 
