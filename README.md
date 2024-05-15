@@ -1,6 +1,6 @@
 # tutorial-p5-responsive
 
-el tutorial esta en el archivo "sketch.js"
+el tutorial esta en el archivo "<a href="https://github.com/mj-una/tutorial-p5-responsive/blob/main/sketch.js" target="_blank" rel="noopener noreferrer">sketch.js</a>"
 
 tiene dos ejemplos de implementaciones distintas:
 
