@@ -10,7 +10,7 @@ tiene dos ejemplos de implementaciones distintas:
 
 <br>
 
-ver tutorial en <a href="https://editor.p5js.org/martin_julio/sketches/1dDJhk4Qm" target="_blank" rel="noopener noreferrer">editor p5 online</a>
+ver tutorial en <a href="https://editor.p5js.org/mj-una/sketches/1dDJhk4Qm" target="_blank" rel="noopener noreferrer">editor p5 online</a>
 
 
 ver vista web en <a href="https://mj-una.github.io/tutorial-p5-responsive/index.html" target="_blank" rel="noopener noreferrer">github pages</a>
