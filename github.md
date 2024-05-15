@@ -11,7 +11,7 @@ todo se hace desde la interfaz grafica, sin necesidad de comandos
 para aprender a trabajar con git/github ver los tutoriales del final
 
 si encuentras un error o tienes una sugerencia porfa dime y lo cambio!
- -  ultima actualizacion: 10 Dic 2023
+ -  ultima actualizacion: 15 Mayo 2024
 
 
 PASO A PASO
@@ -62,8 +62,9 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 
 4.  en la Carpeta: abre "index.html" y revisa cómo se verá el sketch en el navegador
 
-    * para que el lienzo se adapte al tamaño de la pantalla hice este tutorial:
-    https://github.com/mj-una/tutorial-p5-responsive/blob/main/sketch.js
+    * si estas usando videos, imagenes o archivos externos puede que no te funcione bien.
+    puedes abrir la carpeta en vs code (con la extension "live server" instalada) y hacer
+    click derecho sobre "index.html", y luego la primmera opcion. sino, saltate al paso 5. 
 
     * si tu sketch funcionaba bien en el editor, pero ahora no se ve -> puede ser que
     en el paso 0 eliminaste la linea equivocada. en ese caso, copia y pega el <script>
@@ -77,6 +78,9 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
     de las bibliotecas que uses (y cambiar el src de los <script> para que se refieran a
     los archivos locales, por ej: <script src="p5.js">). asi se evita problemas por si
     a futuro cambia el link de las versiones online o dejan de estar disponibles
+    
+    * para que el lienzo se adapte al tamaño de cualquier pantalla hice este tutorial:
+    https://github.com/mj-una/tutorial-p5-responsive/blob/main/sketch.js
 
 
 .....................................
@@ -174,6 +178,8 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 16. tardará algunos minutos en desplegarse ("deploy") la pagina. carga de nuevo la pestaña
     hasta que aparezca un mensaje q dice "your site is live at" y el link
     
+    puedes ver el progreso en "actions" de la barra superior
+    
 
 .....................................
 
@@ -183,7 +189,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
 .....................................
 
 18. si quieres dar de baja la pagina: vuelve al paso 14 y cambia "main" a "none" -> "save".
-    la podrás volver a dar de alta seleccionando de nuevo "main" -> "save"
+    la podrás volver a dar de alta seleccionando de nuevo "main"
 
     tambien existe la opcion "unpublish page", pero en caso de que luego quieras
     publicarla de vuelta vas a tener q crear una nueva rama ("branch") y es mas complicado
@@ -197,7 +203,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
     luego baja y click en "delete file"). tambien puedes [3] subir más archivos, repitiendo
     lo de "add file". cualquier cambio q hagas tardará unos minutos en verse reflejado
 
-    tambien en la seccion "code", junto al boton de "add file" hay un boton que dice "code",
+    tambien, si vuelves al inicio, junto al boton de "add file" hay un boton que dice "code",
     si lo clickeas-> en la ultima opcion q se abre-> "download zip" puedes descargar el codigo
 
     * esto ultimo lo puedes hacer con cualquier repositorio q encuentres en github, aunque hay
@@ -264,4 +270,3 @@ tutoriales de git/github de la catedra laccabanne (2022)
 
 
 ```
-
