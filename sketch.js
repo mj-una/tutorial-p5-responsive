@@ -19,7 +19,7 @@ se ajusta el tamaño del elemento <canvas> del html y sobrescribe lo anterior.
 
 ->  la medida que se le pase a createCanvas() será la resolucion interna del lienzo.
 ->  el tamaño de visualizacion dependerá de la maquetacion que se haga con estilos css.
-    (en este caso es proporcional a la ventana del navegador, y se le resta el margen)
+   (en el ejemplo 1 es proporcional a la ventana del navegador, y se le resta el margen)
 
 como se manejan por separado la resolucion interna y el tamaño final,
 está muy bueno para optimizar el tiempo de carga o la cantidad de memoria que se usa.
@@ -29,11 +29,11 @@ puede ser un canvas chico y liviano, pero verse grande tipo pantalla completa
 
 .....................................
 
-el ejemplo 1 está listo para copiar y pegar. solo hay que quitar los comentarios.
+el ejemplo 1 está listo para usar. solo hay que quitar los comentarios.
 se adapta a cualquier pantalla. le puse flex, asi el canvas siempre quedará al medio.
 se le puede personalizar el tamaño del margen y el color de fondo.
 
-    aqui hay una version sin comentarios:
+    aqui hay una version sin comentarios (para copiar y pegar):
     https://editor.p5js.org/martin_julio/sketches/FJdY6lAu0
 
     aqui publiqué el ejemplo 1 para verlo como pagina web:
@@ -44,41 +44,13 @@ se le puede personalizar el tamaño del margen y el color de fondo.
 
 
 .....................................
-    
-escribi todo desde 0, el texto y el codigo de los ejemplos.
+
+cc0 - al dominio publico
+
+escribi todo yo, el texto y el codigo de los ejemplos.
 para usar y editar libremente. no es necesario citar autoria
 
 30 Nov 2023
-
-
-.....................................
-
-# nota 2 de diciembre para ejemplo 1: corregi un error con el margen.
-
-ademas lo probe en algunos dispositivos y hay un tema con la altura
-pq en algunos celulares se agrega una interfaz por abajo q se sobrepone al viewport
-del navegador. por ejemplo algunos android q tienen una barra con botones incorporados,
-q funcionan como una cortina por sobre del navegador. por eso, para la vista final
-no quedará justo al centro entre arriba y abajo.
-
-no se como resolverlo, pq tecnicamente funciona bien, lo q cambia es el caso a caso
-de cómo trabaja la interfaz de cada celu.
-
-si se prefiere, como alternativa, se puede quitar la linea de ".alignItems",
-y descomentar la siguiente (que dice ".paddingTop"). asi el sketch quedará
-un poco mas arriba que el centro, con la ventaja de que es menos probable
-q una interfaz tape por completo el margen inferior.
-
-ajustable: a -> [cnv.style.paddingTop] se le asigna -> [mrg * 0.5 + "vh"]
-el valor [0.5] se puede disminuir o aumentar (entre 0 y 1) para ajustar el tamaño
-del margen superior (mientras menos margen haya arriba, mas habrá abajo)
-
-la forma original funciona perfecto para ver desde compu y algunos celulares.
-en esos caso la forma alternativa se verá menos prolija visualmente, pero sirve
-de parche para intentar q en todos los demas casos se vea algo de margen inferior
-y no quede topando el lienzo con una interfaz del celular.
-
-si alguien encuentra otro error o tiene una sugerencia, porfa me dice y lo edito
 
 */
 
@@ -117,12 +89,12 @@ function windowResized() {
   let cnv = document.getElementById("defaultCanvas0"); // selecciona canvas de p5
   // getElementById retorna un elemento (unico) que en el html tenga el id que se pasa.
   // normalmente el id es visible en el codigo, por ejemplo <button id="ej123"></button>. 
-  // pero en este caso se está buscando un elemnto que crea p5 cuando se carga el sketch,
+  // pero en este caso se está buscando un elemento que crea p5 cuando se carga el sketch
   // por lo que para encontrarlo hay que inspeccionar la pagina desde el navegador.
   // se ve algo así <canvas id="defaultCanvas0" class="p5Canvas" etc... ></canvas>
  
   // margen <== EDITABLE
-  let mrg = 5; // porcentaje (entre 0% y 50%)
+  let mrg = 3; // porcentaje (entre 0% y 50%)
   // calculando que 100% es la medida menor del contexto de visualizacion (viewport)
   // en comparación a la proproción width/height del lienzo. mas simple, y mas probable
   // es que desde celu 100% va ser el ancho de la ventana y desde compu el alto
@@ -143,8 +115,7 @@ function windowResized() {
   pag.style.display = "flex"; // propiedad css para centrar (se aplica al contenedor)
   pag.style.justifyContent = "center"; // centrar contenido horizontalmente
   pag.style.alignItems = "center"; // centrar contenido verticalmente (ej. <==@)
-  //pag.style.paddingTop = mrg * 0.5 + "vh"; // (alternativa. ver # nota 2 de diciembre)
-  pag.style.height = "100vh"; // a veces se recorta la pagina en pantallas verticales
+  pag.style.height = "100svh"; // a veces se recorta la pagina en pantallas verticales
  
   // no se cómo explicarlo bien, pero este if sirve para ver cuál medida es mayor:
   // el ancho de pantalla en comparación al alto del lienzo, o el alto de pantalla
@@ -157,13 +128,17 @@ function windowResized() {
    
     // "vh" es una unidad de medida en porcentajes de css (siglas de "viewport height"),
     // donde 100% es todo el alto del contexto de visualización. y "vw" es para el ancho.
-    // se concatena para q css reciba un string de [valor] + [unidad de medida]
+    // se concatena para q .style reciba un string de [valor] + [unidad de medida]
+    
+    // "svh" es una mejora reciente de "vh" que resuleve algunos problemas de interfaces 
+    // solapadas en celular. compatible con: safari, chrome y derivados, no con firefox.
+    // https://flaming.codes/es/posts/new-dynamic-viewport-sizes-dvh-lvh-svh/
    
     // el lienzo ocupa todo el alto, menos los margenes de arriba y abajo
-    cnv.style.height = (100 - mrg * 2) + "vh";
+    cnv.style.height = (100 - mrg * 2) + "svh";
    
     // el ancho del lienzo en proporcion al alto (con regla de 3)
-    cnv.style.width = ((100 - mrg * 2) / height) * width + "vh";
+    cnv.style.width = ((100 - mrg * 2) / height) * width + "svh";
   }
   else {
 
@@ -183,7 +158,7 @@ EJEMPLO 2
 para cualquier pagina en la que se quiera incluir un sketch.
 
 la idea es crear el canvas dentro de un div contenedor que le dará su forma final.
-asi se pueden manejar los tamaños del html con css como se haria normalmente.
+asi se pueden manejar los tamaños de los bloques con css como se haria normalmente.
 del sketch se usan: createCanvas para la resolucion interna (ojo a la proporcion)
 y windowResized para adaptar la medida del lienzo al div.
 
@@ -316,8 +291,8 @@ function windowResized() {
   // como el css es responsive, pq usa "vh", .getComputedStyle() sirve para obtener
   // los valores finales en px del elemento en la pantalla (o sea cuando ya se adaptó)
 
-  cnv.style.width = dvvFin.width; // sobreescribe los estilos del <canvas> en el dom
-  cnv.style.height = dvvFin.height; // anulando los valores dados por p5.rederer
+  cnv.style.width = dvvFin.width; // sobreescribe los estilos del <canvas> en el dom...
+  cnv.style.height = dvvFin.height; // ...anulando los valores dados por p5.rederer
 }
   
   
@@ -336,7 +311,7 @@ si se quiere mostrar cada lienzo con sus propias medidas, entonces hay que
 usar distintos id para los div y mantener la funcion windowResized() en cada
 instacia por separado, ajustando los id que usan cnv y dvv en getElemntById()
 (se pueden buscar desde el navegador con inspeccionar elementos para asegurarse,
-pero lo normal es que aumenta de a uno el número final en "defaultCanvas0"
+pero lo normal es que aumenta de a uno el número final en "defaultCanvas#"
 según el orden en que cada instancia se ejecuta en el código).
 
 o para los casos en que se vayan a mostrar iguales todos los divs (con la misma forma),
@@ -361,7 +336,7 @@ en general las plataformas de contenido suelen usar iframes como contenedores.
   
 .....................................
 
-PD1: para cada caso habría que adaptar el código de distintas formas. en estos dos
+PD1: para cada caso habría que adaptar el código de distintas formas. en los dos
 ejemplos está el concepto para resolver la parte del responsive manipulando el dom
 pero, por cómo se implementan, sirven solamente para un sketch por pagina.
 
