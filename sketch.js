@@ -34,7 +34,7 @@ se adapta a cualquier pantalla. le puse flex, asi el canvas siempre quedará al 
 se le puede personalizar el tamaño del margen y el color de fondo.
 
     aqui hay una version sin comentarios (para copiar y pegar):
-    https://editor.p5js.org/martin_julio/sketches/FJdY6lAu0
+    https://editor.p5js.org/mj-una/sketches/FJdY6lAu0
 
     aqui publiqué el ejemplo 1 para verlo como pagina web:
     https://mj-una.github.io/tutorial-p5-responsive
@@ -60,7 +60,7 @@ para usar y editar libremente. no es necesario citar autoria
 function setup() {
 
   createCanvas(200, 400); // resolucion interna, puede ser cualquier medida
-  windowResized(); // <== se llama una vez creado el canvas
+  windowResized(); // <== se llama una vez creado el canvas (copiar y pegar esta linea)
 }
 
 
@@ -73,6 +73,7 @@ function draw() {
 }
 
 
+// copiar y pegar esta funcion
 function windowResized() {
 
   // se llama una vez en el setup para sobreescribir medidas de createCanvas()
