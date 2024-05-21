@@ -329,7 +329,7 @@ ni trabajar con instancias multiples de p5). en el interior, cada skecth
 se adapta a su propia ventana de contexto, algo similar al ejemplo 1.
 
 me parece un enfoque más práctico, más escalable y más facil de compartir. 
-en general las plataformas de contenido suelen usar iframes como contenedores.
+las plataformas tipo tiktok/instagram/youtube suelen usar iframes como contenedores.
 
     hay q aprender para reapropiarnos las cosas que usamos
     rescatar lo que necesitemos, hacerlo accesible, hacerlo colectivo
