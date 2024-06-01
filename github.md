@@ -79,7 +79,7 @@ si ya tienes tus archivos .html, .css, .js, etc en local -> arranca desde el pas
     los archivos locales, por ej: <script src="p5.js">). asi se evita problemas por si
     a futuro cambia el link de las versiones online o dejan de estar disponibles
     
-    * para que el lienzo se adapte al tamaño de cualquier pantalla hice este tutorial:
+    * para que el lienzo se adapte automaticamente a cualquier pantalla hice este tutorial:
     https://github.com/mj-una/tutorial-p5-responsive/blob/main/sketch.js
 
 
@@ -246,8 +246,11 @@ sobre github:
     pero es muy muy muy util, asi q todo lo q aprendas valdrá el esfuerzo
 
 
-una excelente forma de empezar:
-tutoriales de git/github de la catedra laccabanne (2022)
+mi tutorial de git/github favorito hasta la fecha (2024):
+https://www.youtube.com/playlist?list=PLJ7sTTLrIA6klMtrvcpGXYkBFoUP3rqwo
+
+sino tambien otra excelente forma de empezar:
+clases grabadas de la catedra laccabanne (2022)
 
     parte 1
     https://youtu.be/9kKWEDiVBIY?si=bnLRYvy798G6fxYa
@@ -259,7 +262,7 @@ tutoriales de git/github de la catedra laccabanne (2022)
     https://youtu.be/TUoZ3-YFfco?si=qcVBMIfdNKJqEBGe
 
 
-    trabajar desde repositorios locales con un editor como vs code (o similar)
+    trabajar desde repositorios locales conectados a un repositorio remoto (en github)
     permite manejar mucho mejor el codigo, los archivos y los cambios q hagas.
     ademas se respalda en la nube y se puede compartir facilmente
 
