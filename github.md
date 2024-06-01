@@ -11,7 +11,7 @@ todo se hace desde la interfaz grafica, sin necesidad de comandos
 para aprender a trabajar con git/github ver los tutoriales del final
 
 si encuentras un error o tienes una sugerencia porfa dime y lo cambio!
- -  ultima actualizacion: 15 Mayo 2024
+ -  ultima actualizacion: 31 Mayo 2024
 
 
 PASO A PASO
@@ -246,12 +246,13 @@ sobre github:
     pero es muy muy muy util, asi q todo lo q aprendas valdrá el esfuerzo
 
 
-mi tutorial de git/github favorito hasta la fecha (2024):
-https://www.youtube.com/playlist?list=PLJ7sTTLrIA6klMtrvcpGXYkBFoUP3rqwo
+    mi tutorial de git/github favorito hasta la fecha (2024):
+    https://www.youtube.com/playlist?list=PLJ7sTTLrIA6klMtrvcpGXYkBFoUP3rqwo
 
-sino tambien otra excelente forma de empezar:
-clases grabadas de la catedra laccabanne (2022)
 
+    sino tambien otra excelente forma de empezar:
+    clases grabadas de la catedra laccabanne (2022)
+    
     parte 1
     https://youtu.be/9kKWEDiVBIY?si=bnLRYvy798G6fxYa
     
@@ -263,11 +264,11 @@ clases grabadas de la catedra laccabanne (2022)
 
 
     trabajar desde repositorios locales conectados a un repositorio remoto (en github)
-    permite manejar mucho mejor el codigo, los archivos y los cambios q hagas.
-    ademas se respalda en la nube y se puede compartir facilmente
+    permite manejar mucho mejor el codigo y los cambios q hagas tu o quienes colaboren.
+    ademas, asi queda todo respaldado online por si se rompe algo y necesitan devolverse 
 
-    es un poco dificil acostumbrarse al principio, pero intentalo y repitelo.
-    la mejor forma de aprender es con el uso. cada vez se te hará un poco mas fácil
+    es un poco dificil acostumbrarse al principio, pero de a poco va saliendo, con el uso.
+    y todo lo q se aprende luego sirve para usarlo en muuuchas areas, asi q 100% recomendado 
 
     saludos!
 
