@@ -11,7 +11,7 @@ todo se hace desde la interfaz grafica, sin necesidad de comandos
 para aprender a trabajar con git/github ver los tutoriales del final
 
 si encuentras un error o tienes una sugerencia porfa dime y lo cambio!
- -  ultima actualizacion: 31 Mayo 2024
+ -  ultima actualizacion: 20 Junio 2024
 
 
 PASO A PASO
@@ -263,7 +263,7 @@ sobre github:
     https://youtu.be/TUoZ3-YFfco?si=qcVBMIfdNKJqEBGe
 
 
-    trabajar desde repositorios locales conectados a un repositorio remoto (en github)
+    trabajar desde repositorios locales (git) conectados a un repositorio remoto (en github)
     permite manejar mucho mejor el codigo y los cambios q hagas tu o quienes colaboren.
     ademas, asi queda todo respaldado online por si se rompe algo y necesitan devolverse 
 
